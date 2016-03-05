@@ -14,3 +14,45 @@ files to a single commit and can review all the relevant files before commiting
 them.
 
 
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can use the staging area to make sure you have commit per logical change.
+The whole idea of the staging area is to have a dedicated area for which the
+user will be able to review the changes which about to get commited. The
+user can review the changes with the git diff --staged command and make sure
+that all changes made and about to get committed are relevant.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+The situations are:
+- New experimental features
+- New experimental code improvements
+- New parallel version of the program
+
+Branches can help in those cases since you would always be able to rollback
+easily back to the former and stable version - the master one, and continue
+working on it independantly.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The digarams help me visualizing the branch structure by giving me a method
+to follow each commit from a given one to the root of the repository, I can
+see all the branches in the repository in one glance and understand its
+reachability.
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result of merging to branches is having one branch to represent our current
+commit. The actual files get merged themselves automatically without the need to
+do it manually.
+We represent it in the diagram to help us understand the history of the
+branches. In this way we are able to track down changes more easily and
+comprehnsively and it helps us see the whole picture.
+
+
