@@ -1,5 +1,14 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your work
+local?
 
-I would like to use remote repository when i would like to use the cloud benefits:
-When I want to backup my local repository, when I want to work from several machines
-and when I want some users would be able to use the repository.
+I would like to use remote repository when i would like to use the cloud
+benefits:
+When I want to backup my local repository, when I want to work from several
+machines and when I want some users would be able to use the repository.
+
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+I always want to pull changes manually becuase i would like to have control on
+the commits i pull to my local one. I should control my merging as well.
